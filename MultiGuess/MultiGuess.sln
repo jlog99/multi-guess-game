@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiGuess", "MultiGuess\MultiGuess.csproj", "{573A680E-8761-4A39-BF47-70C5E682DBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiGuessTests", "MultiGuessTests\MultiGuessTests.csproj", "{99FB4A0C-46B4-4DF1-819F-37C700521FF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{573A680E-8761-4A39-BF47-70C5E682DBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573A680E-8761-4A39-BF47-70C5E682DBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573A680E-8761-4A39-BF47-70C5E682DBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573A680E-8761-4A39-BF47-70C5E682DBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FB4A0C-46B4-4DF1-819F-37C700521FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FB4A0C-46B4-4DF1-819F-37C700521FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FB4A0C-46B4-4DF1-819F-37C700521FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FB4A0C-46B4-4DF1-819F-37C700521FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63D9A762-F6D0-40DB-A2D6-426470F8939E}
+	EndGlobalSection
+EndGlobal

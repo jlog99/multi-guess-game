@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\multi-guess-game\\MultiGuess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99FB4A0C-46B4-4DF1-819F-37C700521FF8}|MultiGuessTests\\MultiGuessTests.csproj|c:\\development\\multi-guess-game\\multiguess\\multiguesstests\\multiplayerguessinggametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99FB4A0C-46B4-4DF1-819F-37C700521FF8}|MultiGuessTests\\MultiGuessTests.csproj|solutionrelative:multiguesstests\\multiplayerguessinggametests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573A680E-8761-4A39-BF47-70C5E682DBAC}|MultiGuess\\MultiGuess.csproj|c:\\development\\multi-guess-game\\multiguess\\multiguess\\vocabularychecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{573A680E-8761-4A39-BF47-70C5E682DBAC}|MultiGuess\\MultiGuess.csproj|solutionrelative:multiguess\\vocabularychecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573A680E-8761-4A39-BF47-70C5E682DBAC}|MultiGuess\\MultiGuess.csproj|c:\\development\\multi-guess-game\\multiguess\\multiguess\\multiplayerguessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{573A680E-8761-4A39-BF47-70C5E682DBAC}|MultiGuess\\MultiGuess.csproj|solutionrelative:multiguess\\multiplayerguessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VocabularyChecker.cs",
+              "DocumentMoniker": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuess\\VocabularyChecker.cs",
+              "RelativeDocumentMoniker": "MultiGuess\\VocabularyChecker.cs",
+              "ToolTip": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuess\\VocabularyChecker.cs",
+              "RelativeToolTip": "MultiGuess\\VocabularyChecker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:15:20.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultiplayerGuessingGameTests.cs",
+              "DocumentMoniker": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuessTests\\MultiplayerGuessingGameTests.cs",
+              "RelativeDocumentMoniker": "MultiGuessTests\\MultiplayerGuessingGameTests.cs",
+              "ToolTip": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuessTests\\MultiplayerGuessingGameTests.cs",
+              "RelativeToolTip": "MultiGuessTests\\MultiplayerGuessingGameTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:13:59.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MultiplayerGuessingGame.cs",
+              "DocumentMoniker": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuess\\MultiplayerGuessingGame.cs",
+              "RelativeDocumentMoniker": "MultiGuess\\MultiplayerGuessingGame.cs",
+              "ToolTip": "C:\\Development\\multi-guess-game\\MultiGuess\\MultiGuess\\MultiplayerGuessingGame.cs",
+              "RelativeToolTip": "MultiGuess\\MultiplayerGuessingGame.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA5wDEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:03:20.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>C:\Development\microsoft\MultiGuess\MultiGuessTests\MultiplayerGuessingGameTests.cs</title>
+    <script type="text/javascript" src="../js/dotcover.sourceview.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/dotcover.report.css" />
+  </head>
+  <body>
+    <pre id="content" class="source-code">
+using NUnit.Framework;
+using Moq;
+using MultiGuess;
+
+namespace MultiGuessTests
+{
+    [TestFixture]
+    public class MultiplayerGuessingGameTests
+    {
+        private Mock&lt;IVocabularyChecker&gt; mockVocabularyChecker;
+        private MultiplayerGuessingGame game;
+
+        [SetUp]
+        public void Setup()
+        {
+            mockVocabularyChecker = new Mock&lt;IVocabularyChecker&gt;();
+            mockVocabularyChecker.Setup(vc =&gt; vc.Exists(It.IsAny&lt;string&gt;())).Returns(true);
+
+            var words = new List&lt;string&gt; { &quot;poker&quot;, &quot;cover&quot;, &quot;pesto&quot; };
+            game = new MultiplayerGuessingGame(words);
+        }
+
+        [Test]
+        public void TestGetGameStrings()
+        {
+            var gameStrings = game.GetGameStrings();
+            Assert.AreEqual(3, gameStrings.Count);
+            foreach (var word in gameStrings)
+            {
+                Assert.AreEqual(5, word.Length);
+                Assert.IsTrue(word.Contains(&#39;*&#39;));
+            }
+        }
+
+        [Test]
+        public void TestSubmitGuess_ExactMatch()
+        {
+            int score = game.SubmitGuess(&quot;player1&quot;, &quot;poker&quot;);
+            Assert.AreEqual(10, score);
+        }
+
+        [Test]
+        public void TestSubmitGuess_ValidGuess()
+        {
+            int score = game.SubmitGuess(&quot;player1&quot;, &quot;power&quot;);
+            Assert.Greater(score, 0);
+        }
+
+        [Test]
+        public void TestSubmitGuess_InvalidGuess()
+        {
+            mockVocabularyChecker.Setup(vc =&gt; vc.Exists(&quot;xxxxx&quot;)).Returns(false);
+            int score = game.SubmitGuess(&quot;player1&quot;, &quot;xxxxx&quot;);
+            Assert.AreEqual(0, score);
+        }
+    }
+}
+    </pre>
+    <script type="text/javascript">
+      highlightRanges([[15,9,15,10,1],[16,13,16,68,1],[17,13,17,92,1],[19,13,19,72,1],[20,13,20,55,1],[21,9,21,10,1],[25,9,25,10,1],[26,13,26,53,1],[27,13,27,51,1],[28,13,28,20,1],[28,22,28,30,1],[28,31,28,33,1],[28,34,28,45,1],[29,13,29,14,1],[30,17,30,49,1],[31,17,31,51,1],[32,13,32,14,1],[33,9,33,10,1],[37,9,37,10,1],[38,13,38,62,1],[39,13,39,40,1],[40,9,40,10,1],[44,9,44,10,1],[45,13,45,62,1],[46,13,46,38,1],[47,9,47,10,1],[51,9,51,10,1],[52,13,52,82,1],[53,13,53,62,1],[54,13,54,39,1],[55,9,55,10,1]]);
+    </script>
+  </body>
+</html>

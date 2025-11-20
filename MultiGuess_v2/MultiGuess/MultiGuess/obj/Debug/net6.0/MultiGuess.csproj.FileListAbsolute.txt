@@ -1,0 +1,12 @@
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\bin\Debug\net6.0\wordlist.txt
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\bin\Debug\net6.0\MultiGuess.deps.json
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\bin\Debug\net6.0\MultiGuess.dll
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\bin\Debug\net6.0\MultiGuess.pdb
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.AssemblyInfoInputs.cache
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.AssemblyInfo.cs
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.dll
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\refint\MultiGuess.dll
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\MultiGuess.pdb
+C:\Users\jorda\Downloads\GeektasticCodeChallenge_1353854_1718562025584\MultiGuess\MultiGuess\obj\Debug\net6.0\ref\MultiGuess.dll
